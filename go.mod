@@ -11,7 +11,7 @@ require (
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/mmcdole/gofeed v1.2.0
-	github.com/nbd-wtf/go-nostr v0.12.0
+	github.com/nbd-wtf/go-nostr v0.13.0
 	github.com/rif/cache2go v1.0.0
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/exp v0.0.0-20230203172020-98cc5a0785f9
