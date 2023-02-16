@@ -5,13 +5,13 @@ go 1.20
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/PuerkitoBio/goquery v1.8.0
-	github.com/fiatjaf/relayer v1.7.0
+	github.com/fiatjaf/relayer v1.7.1
 	github.com/grokify/html-strip-tags-go v0.0.1
 	github.com/hellofresh/health-go/v5 v5.0.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/mmcdole/gofeed v1.2.0
-	github.com/nbd-wtf/go-nostr v0.13.0
+	github.com/nbd-wtf/go-nostr v0.13.1
 	github.com/rif/cache2go v1.0.0
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/exp v0.0.0-20230203172020-98cc5a0785f9
