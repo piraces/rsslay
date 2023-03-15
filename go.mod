@@ -8,7 +8,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/fiatjaf/relayer v1.7.2
 	github.com/hashicorp/logutils v1.0.0
-	github.com/hellofresh/health-go/v5 v5.1.0
+	github.com/hellofresh/health-go/v5 v5.1.1
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/microcosm-cc/bluemonday v1.0.23
