@@ -6,7 +6,7 @@ require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/JohannesKaufmann/html-to-markdown v1.3.7
 	github.com/PuerkitoBio/goquery v1.8.1
-	github.com/fiatjaf/relayer v1.7.2
+	github.com/fiatjaf/relayer v1.7.3
 	github.com/hashicorp/logutils v1.0.0
 	github.com/hellofresh/health-go/v5 v5.1.1
 	github.com/kelseyhightower/envconfig v1.4.0
