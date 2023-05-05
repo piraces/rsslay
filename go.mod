@@ -13,7 +13,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/microcosm-cc/bluemonday v1.0.23
 	github.com/mmcdole/gofeed v1.2.1
-	github.com/nbd-wtf/go-nostr v0.17.1
+	github.com/nbd-wtf/go-nostr v0.17.3
 	github.com/rif/cache2go v1.0.0
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2
