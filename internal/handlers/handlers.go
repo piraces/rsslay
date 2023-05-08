@@ -31,9 +31,9 @@ type Entry struct {
 }
 
 type PageData struct {
-	Count         uint64
-	FilteredCount uint64
-	Entries       []Entry
+	Count          uint64
+	FilteredCount  uint64
+	Entries        []Entry
 	MainDomainName string
 }
 
@@ -74,9 +74,9 @@ func HandleWebpage(w http.ResponseWriter, r *http.Request, db *sql.DB, mainDomai
 	}
 
 	data := PageData{
-		Count:   count,
-		Entries: items,
-		MainDomainName: mainDomainName,
+		Count:          count,
+		Entries:        items,
+		MainDomainName: *mainDomainName,
 	}
 
 	_ = t.ExecuteTemplate(w, "index.html.tmpl", data)
