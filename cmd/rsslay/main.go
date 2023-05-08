@@ -99,7 +99,7 @@ func (r *Relay) Name() string {
 
 func (r *Relay) OnInitialized(s *relayer.Server) {
 	s.Router().Path("/").HandlerFunc(func(writer http.ResponseWriter, request *http.Request) {
-		handlers.HandleWebpage(writer, request, r.db)
+		handlers.HandleWebpage(writer, request, r.db, &r.MainDomainName)
 	})
 	s.Router().Path("/create").HandlerFunc(func(writer http.ResponseWriter, request *http.Request) {
 		handlers.HandleCreateFeed(writer, request, r.db, &r.Secret, dsn)
