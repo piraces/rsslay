@@ -116,9 +116,18 @@ func EntryFeedToSetMetadata(pubkey string, feed *gofeed.Feed, originalUrl string
 		}
 	}
 
+	var theDescription = feed.Description
+	var theFeedTitle = feed.Title + " (RSS Feed)"
+	if strings.Contains(feed.Link, "reddit.com") {
+		var subredditParsePart1 = strings.Split(feed.Link, "/r/")
+		var subredditParsePart2 = strings.Split(subredditParsePart1[1], "/")
+		theDescription = feed.Description + fmt.Sprintf(" #%s", subredditParsePart2[0])
+
+		theFeedTitle = "/r/" + subredditParsePart2[0]
+	}
 	metadata := map[string]string{
-		"name":  feed.Title + " (RSS Feed)",
-		"about": feed.Description + "\n\n" + feed.Link,
+		"name":  theFeedTitle + " (RSS Feed)",
+		"about": theDescription + "\n\n" + feed.Link,
 	}
 
 	if enableAutoRegistration {
@@ -193,11 +202,6 @@ func ItemToTextNote(pubkey string, item *gofeed.Item, feed *gofeed.Feed, default
 			}
 		}
 		content += description
-	}
-
-	if strings.Contains(feed.Link, "reddit.com") {
-		var subreddit = strings.Split(feed.Link, "/r/")
-		description += fmt.Sprintf("the hashtag is: #%s", subreddit)
 	}
 
 	content = html.UnescapeString(content)
