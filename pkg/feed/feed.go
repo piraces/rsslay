@@ -204,6 +204,14 @@ func ItemToTextNote(pubkey string, item *gofeed.Item, feed *gofeed.Feed, default
 		content += description
 	}
 
+	if strings.Contains(feed.Link, "reddit.com") {
+		var subredditParsePart1 = strings.Split(feed.Link, "/r/")
+		var subredditParsePart2 = strings.Split(subredditParsePart1[1], "/")
+		var theHashtag = fmt.Sprintf(" #%s", subredditParsePart2[0])
+
+		content = content + "\n\n" + theHashtag
+	}
+
 	content = html.UnescapeString(content)
 	if len(content) > maxContentLength {
 		content = content[0:(maxContentLength-1)] + "…"
