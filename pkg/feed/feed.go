@@ -117,7 +117,7 @@ func EntryFeedToSetMetadata(pubkey string, feed *gofeed.Feed, originalUrl string
 	}
 
 	var theDescription = feed.Description
-	var theFeedTitle = feed.Title + " (RSS Feed)"
+	var theFeedTitle = feed.Title
 	if strings.Contains(feed.Link, "reddit.com") {
 		var subredditParsePart1 = strings.Split(feed.Link, "/r/")
 		var subredditParsePart2 = strings.Split(subredditParsePart1[1], "/")
