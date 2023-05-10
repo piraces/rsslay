@@ -175,7 +175,7 @@ func ItemToTextNote(pubkey string, item *gofeed.Item, feed *gofeed.Feed, default
 		description = p.Sanitize(item.Description)
 	}
 
-	if !strings.EqualFold(item.Title, description) && !strings.Contains(feed.Link, "stacker.news") {
+	if !strings.EqualFold(item.Title, description) && !strings.Contains(feed.Link, "stacker.news") && !strings.Contains(feed.Link, "reddit.com") {
 		content += "\n\n" + description
 	}
 
@@ -210,6 +210,7 @@ func ItemToTextNote(pubkey string, item *gofeed.Item, feed *gofeed.Feed, default
 		var theHashtag = fmt.Sprintf(" #%s", subredditParsePart2[0])
 
 		content = content + "\n\n" + theHashtag
+
 	}
 
 	content = html.UnescapeString(content)
