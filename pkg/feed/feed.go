@@ -209,7 +209,7 @@ func ItemToTextNote(pubkey string, item *gofeed.Item, feed *gofeed.Feed, default
 		var subredditParsePart2 = strings.Split(subredditParsePart1[1], "/")
 		var theHashtag = fmt.Sprintf(" #%s", subredditParsePart2[0])
 
-		content = content + "\n\n" + theHashtag
+		content = content + "\n\n" + theHashtag + item.Content
 
 	}
 
