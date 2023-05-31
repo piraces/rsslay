@@ -15,7 +15,7 @@ require (
 	github.com/mmcdole/gofeed v1.2.1
 	github.com/nbd-wtf/go-nostr v0.18.5
 	github.com/rif/cache2go v1.0.0
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2
 )
 
