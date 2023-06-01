@@ -10,7 +10,7 @@ require (
 	github.com/hashicorp/logutils v1.0.0
 	github.com/hellofresh/health-go/v5 v5.1.1
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/mattn/go-sqlite3 v1.14.16
+	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/microcosm-cc/bluemonday v1.0.24
 	github.com/mmcdole/gofeed v1.2.1
 	github.com/nbd-wtf/go-nostr v0.18.7
