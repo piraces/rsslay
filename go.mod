@@ -17,7 +17,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/microcosm-cc/bluemonday v1.0.24
 	github.com/mmcdole/gofeed v1.2.1
-	github.com/nbd-wtf/go-nostr v0.19.4
+	github.com/nbd-wtf/go-nostr v0.19.5
 	github.com/prometheus/client_golang v1.16.0
 	github.com/redis/go-redis/v9 v9.0.5
 	github.com/stretchr/testify v1.8.4
