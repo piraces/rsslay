@@ -296,7 +296,7 @@ func TestItemToTextNote(t *testing.T) {
 		assert.Equal(t, 1, event.Kind)
 		assert.Equal(t, tc.expectedContent, event.Content)
 		assert.Empty(t, event.Sig)
-		assert.Empty(t, event.Tags)
+		assert.NotEmpty(t, event.Tags)
 	}
 }
 

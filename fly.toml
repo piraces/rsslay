@@ -29,7 +29,7 @@ kill_timeout = 5
   PORT = "8080"
   RELAYS_TO_PUBLISH_TO = ""
   REPLAY_TO_RELAYS = "false"
-  VERSION = "0.5.3"
+  VERSION = "0.5.4"
 
 [[mounts]]
   source = "rsslay_data_machines"

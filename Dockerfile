@@ -1,4 +1,4 @@
-FROM golang:1.20-alpine as build
+FROM golang:1.21-alpine as build
 
 WORKDIR /app
 
@@ -28,7 +28,7 @@ ENV PORT="8080"
 ENV DB_DIR="/db/rsslay.sqlite"
 ENV DEFAULT_PROFILE_PICTURE_URL="https://i.imgur.com/MaceU96.png"
 ENV SECRET="CHANGE_ME"
-ENV VERSION=0.5.3
+ENV VERSION=0.5.4
 ENV REPLAY_TO_RELAYS=false
 ENV RELAYS_TO_PUBLISH_TO=""
 ENV NITTER_INSTANCES=""

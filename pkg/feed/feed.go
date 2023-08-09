@@ -21,6 +21,7 @@ import (
 	"html"
 	"log"
 	"net/http"
+	"net/url"
 	"strings"
 	"time"
 )
@@ -178,7 +179,7 @@ func EntryFeedToSetMetadata(pubkey string, feed *gofeed.Feed, originalUrl string
 		PubKey:    pubkey,
 		CreatedAt: nostr.Timestamp(createdAt.Unix()),
 		Kind:      nostr.KindSetMetadata,
-		Tags:      nostr.Tags{},
+		Tags:      nostr.Tags{[]string{"proxy", feed.FeedLink, "rss"}},
 		Content:   string(content),
 	}
 	evt.ID = string(evt.Serialize())
@@ -266,11 +267,16 @@ func ItemToTextNote(pubkey string, item *gofeed.Item, feed *gofeed.Feed, default
 		createdAt = *item.PublishedParsed
 	}
 
+	composedProxyLink := feed.FeedLink
+	if item.GUID != "" {
+		composedProxyLink += fmt.Sprintf("#%s", url.QueryEscape(item.GUID))
+	}
+
 	evt := nostr.Event{
 		PubKey:    pubkey,
 		CreatedAt: nostr.Timestamp(createdAt.Unix()),
 		Kind:      nostr.KindTextNote,
-		Tags:      nostr.Tags{},
+		Tags:      nostr.Tags{[]string{"proxy", composedProxyLink, "rss"}},
 		Content:   strings.ToValidUTF8(content, ""),
 	}
 	evt.ID = string(evt.Serialize())
