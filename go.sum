@@ -63,8 +63,8 @@ github.com/dustin/go-humanize v1.0.0 h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4
 github.com/dustin/go-humanize v1.0.0/go.mod h1:HtrtbFcZ19U5GC7JDqmcUSB87Iq5E25KnS6fMYU6eOk=
 github.com/eko/gocache/lib/v4 v4.1.4 h1:09mjQwg9iKm0D9ue58LRCeMFxCemdL/Cn1zEzQJopA4=
 github.com/eko/gocache/lib/v4 v4.1.4/go.mod h1:7uSUlaDeRgr17IYCV8kSluhRDXq4SGutWWxTpxpwW3w=
-github.com/eko/gocache/store/bigcache/v4 v4.1.2 h1:8uMDpgxTG7BvyLHBFqL3Ao809bVrXfrWqo7v6ALiwTw=
-github.com/eko/gocache/store/bigcache/v4 v4.1.2/go.mod h1:Lut5Sk/yI835w02tmwx4ecezYQo445L5sdICsk1zgho=
+github.com/eko/gocache/store/bigcache/v4 v4.2.0 h1:oWPW/lPmGe2V91iQkSUa0QcWqIIH9U058hKhG0mnsOk=
+github.com/eko/gocache/store/bigcache/v4 v4.2.0/go.mod h1:lAFv7vJHo9Oy5a6u9uVFmoUZKtH9H/KkH2mzy3Al1Xo=
 github.com/eko/gocache/store/redis/v4 v4.2.0 h1:YguIDZuMeVFlQFi0DiYQpL7NvHAckinYFjWxvr0qmLw=
 github.com/eko/gocache/store/redis/v4 v4.2.0/go.mod h1:IP4GWCjca/pyruK5GweTZ7zzoFlgQABd3cVMJFEgHfs=
 github.com/fiatjaf/relayer v1.7.3 h1:HbE67EFsabLO4bvbuB3uMRfRizsvDxseCIaeQHQstv8=
