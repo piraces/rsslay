@@ -8,7 +8,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/allegro/bigcache v1.2.1
 	github.com/eko/gocache/lib/v4 v4.1.5
-	github.com/eko/gocache/store/bigcache/v4 v4.2.0
+	github.com/eko/gocache/store/bigcache/v4 v4.2.1
 	github.com/eko/gocache/store/redis/v4 v4.2.1
 	github.com/fiatjaf/relayer v1.7.3
 	github.com/hashicorp/logutils v1.0.0
