@@ -64,12 +64,12 @@ github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f h1:lO4WD4F/r
 github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f/go.mod h1:cuUVRXasLTGF7a8hSLbxyZXjz+1KgoB3wDUb6vlszIc=
 github.com/dustin/go-humanize v1.0.0 h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo=
 github.com/dustin/go-humanize v1.0.0/go.mod h1:HtrtbFcZ19U5GC7JDqmcUSB87Iq5E25KnS6fMYU6eOk=
-github.com/eko/gocache/lib/v4 v4.1.4 h1:09mjQwg9iKm0D9ue58LRCeMFxCemdL/Cn1zEzQJopA4=
-github.com/eko/gocache/lib/v4 v4.1.4/go.mod h1:7uSUlaDeRgr17IYCV8kSluhRDXq4SGutWWxTpxpwW3w=
+github.com/eko/gocache/lib/v4 v4.1.5 h1:CeMQmdIzwBKKLRjk3FCDXzNFsQTyqJ01JLI7Ib0C9r8=
+github.com/eko/gocache/lib/v4 v4.1.5/go.mod h1:XaNfCwW8KYW1bRZ/KoHA1TugnnkMz0/gT51NDIu7LSY=
 github.com/eko/gocache/store/bigcache/v4 v4.2.0 h1:oWPW/lPmGe2V91iQkSUa0QcWqIIH9U058hKhG0mnsOk=
 github.com/eko/gocache/store/bigcache/v4 v4.2.0/go.mod h1:lAFv7vJHo9Oy5a6u9uVFmoUZKtH9H/KkH2mzy3Al1Xo=
-github.com/eko/gocache/store/redis/v4 v4.2.0 h1:YguIDZuMeVFlQFi0DiYQpL7NvHAckinYFjWxvr0qmLw=
-github.com/eko/gocache/store/redis/v4 v4.2.0/go.mod h1:IP4GWCjca/pyruK5GweTZ7zzoFlgQABd3cVMJFEgHfs=
+github.com/eko/gocache/store/redis/v4 v4.2.1 h1:uPAgZIn7knH6a55tO4ETN9V93VD3Rcyx0ZIyozEqC0I=
+github.com/eko/gocache/store/redis/v4 v4.2.1/go.mod h1:JoLkNA5yeGNQUwINAM9529cDNQCo88WwiKlO9e/+39I=
 github.com/fiatjaf/relayer v1.7.3 h1:HbE67EFsabLO4bvbuB3uMRfRizsvDxseCIaeQHQstv8=
 github.com/fiatjaf/relayer v1.7.3/go.mod h1:cQGM8YSoU/7I79Mg9ULlLQWYm/U54/B/4k60fRXEY2o=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
