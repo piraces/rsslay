@@ -12,7 +12,7 @@ require (
 	github.com/eko/gocache/store/redis/v4 v4.2.1
 	github.com/fiatjaf/relayer v1.7.3
 	github.com/hashicorp/logutils v1.0.0
-	github.com/hellofresh/health-go/v5 v5.3.0
+	github.com/hellofresh/health-go/v5 v5.5.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/microcosm-cc/bluemonday v1.0.26
@@ -64,8 +64,8 @@ require (
 	github.com/tidwall/gjson v1.14.4 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	go.opentelemetry.io/otel v1.16.0 // indirect
-	go.opentelemetry.io/otel/trace v1.16.0 // indirect
+	go.opentelemetry.io/otel v1.19.0 // indirect
+	go.opentelemetry.io/otel/trace v1.19.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
