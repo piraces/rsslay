@@ -12,7 +12,7 @@ require (
 	github.com/eko/gocache/store/redis/v4 v4.2.1
 	github.com/fiatjaf/relayer v1.7.3
 	github.com/hashicorp/logutils v1.0.0
-	github.com/hellofresh/health-go/v5 v5.5.0
+	github.com/hellofresh/health-go/v5 v5.5.1
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.18
 	github.com/microcosm-cc/bluemonday v1.0.26
