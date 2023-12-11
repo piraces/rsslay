@@ -3,7 +3,7 @@ module github.com/piraces/rsslay
 go 1.21
 
 require (
-	github.com/DATA-DOG/go-sqlmock v1.5.0
+	github.com/DATA-DOG/go-sqlmock v1.5.1
 	github.com/JohannesKaufmann/html-to-markdown v1.4.2
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/allegro/bigcache v1.2.1
